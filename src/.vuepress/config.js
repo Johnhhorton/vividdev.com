@@ -1,17 +1,18 @@
 module.exports = {
     title: 'Vivid Dev',
     description: 'Blog by Harry Horton',
-    base:'/vividdev.com/',
-    dest:'docs',
+    base: '/vividdev.com/',
+    dest: 'docs',
+    serviceWorker: true,
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/posts/' }
         ],
-        sidebar: ['/','/posts/',{
+        sidebar: ['/', '/posts/', {
             title: 'Group 2',
             collapsable: false,
-            children: ['/','/posts/']
-          }]
+            children: ['/', '/posts/']
+        }]
     }
 }
