@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "42c3684e97ec7fe2d1bdb84c64b9b084"
+    "revision": "66a07f2f0010856ecb3268b64fd8e600"
   },
   {
     "url": "assets/css/6.styles.9526c70b.css",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/0.0769a1f2.js",
-    "revision": "f1d7f836382a9a659de1a0ed3755ec4d"
+    "url": "assets/js/0.9f155f64.js",
+    "revision": "4db66e9857f37619fa0f73bd922b757b"
   },
   {
-    "url": "assets/js/1.12d88d67.js",
-    "revision": "60b0294b220b96ac7e51a189378f6392"
+    "url": "assets/js/1.68b68909.js",
+    "revision": "44bae938bdb06d846752ef3bb9841fed"
   },
   {
-    "url": "assets/js/2.b25a26f5.js",
-    "revision": "9bf07afacdedf2f485ee398cb5984a0f"
+    "url": "assets/js/2.7d916d6c.js",
+    "revision": "b2c2f528ada325cc2bc7146ff7e4687c"
   },
   {
     "url": "assets/js/3.47e42df5.js",
@@ -56,24 +56,24 @@ self.__precacheManifest = [
     "revision": "c51b76c6c7fdc00b808e43df84e78045"
   },
   {
-    "url": "assets/js/app.5ea8eee3.js",
-    "revision": "ed715765bcbfacdb1a5bf48354dd62f7"
+    "url": "assets/js/app.80664d91.js",
+    "revision": "488583886bb490e25d6a3e1b000e3184"
   },
   {
     "url": "index.html",
-    "revision": "447cd323b5e6c80e0d86805d52921922"
+    "revision": "8ffd39def44ed9a81fee1ea327998726"
   },
   {
     "url": "posts/index.html",
-    "revision": "6f3a81602a0e0bb4b93941358758ada0"
+    "revision": "73aa6b48ad0b81b0d794060a49f72ebd"
   },
   {
-    "url": "posts/myarticle.html",
-    "revision": "93280836d9cbca06b9e3cf94ef983e6a"
+    "url": "posts/PostWithCodeExample.html",
+    "revision": "68ea3419530bf230417c7bd25ce35d54"
   },
   {
     "url": "posts/testarticle.html",
-    "revision": "1140fa3461fb60fc1efba3b8669d389a"
+    "revision": "62d169d7867e01be031a47752e615f45"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
