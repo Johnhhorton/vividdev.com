@@ -2,7 +2,7 @@ module.exports = {
     title: 'Vivid Dev',
     description: 'Blog by Harry Horton',
     base:'/vividdev.com/',
-    dest:'public',
+    dest:'docs',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
