@@ -2,7 +2,7 @@
 tag: some_tag
 date: 2018-04-26
 ---
-# new post
+# Post with code example
 content
 
 ```javascript
@@ -13,6 +13,7 @@ function hello(world){
 ```
 
 ```php
+
 function hello($world){
     return $world
 }
@@ -20,5 +21,12 @@ function hello($world){
 ```
 
 ```html
-<div class="myclass">content</div>
+<div></div>
 ```
+<script>
+export default{
+    created(){
+        console.log(this.$page.path)
+    }
+}
+</script>

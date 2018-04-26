@@ -6,7 +6,7 @@
                 <h2>{{post.title}}</h2>
                 <span>{{new Date(post.frontmatter.date).toLocaleString(false, {year: 'numeric', month: 'long', day: 'numeric' })}}</span>
                 <p>{{post.frontmatter.description}}</p>
-                <router-link :to="post.path">Ready more</router-link>
+                <router-link :to="post.path">Read more</router-link>
             </div>
           </li>
       </ul>
@@ -14,7 +14,14 @@
 </template>
 <script>
 export default {
-    name:'post-list',
-  props:['posts']
-}
+  name: "post-list",
+  computed: {
+    posts() {
+      console.log(this.$site.pages);
+      return this.$site.pages.filter(
+        page => page.path.startsWith("/posts/") && page.path !== "/posts/"
+      );
+    }
+  }
+};
 </script>
