@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Vivid Dev',
     description: 'Blog by Harry Horton',
-    base:'/vividdev.com/build/',
-    dest:'./build/',
+    base:'/vividdev.com/',
+    dest:'public',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
